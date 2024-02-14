@@ -15,18 +15,22 @@
 		961FA1AC2B72F10B009B76E4 /* MatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961FA1AB2B72F10B009B76E4 /* MatchManager.swift */; };
 		961FA1AE2B72F116009B76E4 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961FA1AD2B72F116009B76E4 /* Misc.swift */; };
 		961FA1B02B743E91009B76E4 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961FA1AF2B743E91009B76E4 /* GameOverView.swift */; };
+		961FA1B22B7D3B18009B76E4 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961FA1B12B7D3B18009B76E4 /* GameView.swift */; };
+		961FA1B42B7D40C6009B76E4 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961FA1B32B7D40C6009B76E4 /* DrawingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		961FA1982B72EF9F009B76E4 /* Guess the Doodle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guess the Doodle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		961FA19B2B72EF9F009B76E4 /* Guess_the_DoodleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess_the_DoodleApp.swift; sourceTree = SOURCE_ROOT; };
 		961FA19D2B72EF9F009B76E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = SOURCE_ROOT; };
-		961FA19F2B72EFA1009B76E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Guess the Doodle/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		961FA19F2B72EFA1009B76E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "/Users/work/Desktop/Apps/Guess the Doodle/Guess the Doodle/Assets.xcassets"; sourceTree = "<absolute>"; };
 		961FA1A22B72EFA1009B76E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		961FA1A92B72F0FD009B76E4 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuView.swift; path = "Guess the Doodle/MenuView.swift"; sourceTree = SOURCE_ROOT; };
-		961FA1AB2B72F10B009B76E4 /* MatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MatchManager.swift; path = "Guess the Doodle/MatchManager.swift"; sourceTree = SOURCE_ROOT; };
-		961FA1AD2B72F116009B76E4 /* Misc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Misc.swift; path = "Guess the Doodle/Misc.swift"; sourceTree = SOURCE_ROOT; };
-		961FA1AF2B743E91009B76E4 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		961FA1A92B72F0FD009B76E4 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuView.swift; path = "/Users/work/Desktop/Apps/Guess the Doodle/Guess the Doodle/MenuView.swift"; sourceTree = "<absolute>"; };
+		961FA1AB2B72F10B009B76E4 /* MatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MatchManager.swift; path = "/Users/work/Desktop/Apps/Guess the Doodle/Guess the Doodle/MatchManager.swift"; sourceTree = "<absolute>"; };
+		961FA1AD2B72F116009B76E4 /* Misc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Misc.swift; path = "/Users/work/Desktop/Apps/Guess the Doodle/Guess the Doodle/Misc.swift"; sourceTree = "<absolute>"; };
+		961FA1AF2B743E91009B76E4 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameOverView.swift; path = "/Users/work/Desktop/Apps/Guess the Doodle/Guess the Doodle/GameOverView.swift"; sourceTree = "<absolute>"; };
+		961FA1B12B7D3B18009B76E4 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameView.swift; path = "/Users/work/Desktop/Apps/Guess the Doodle/Guess the Doodle/GameView.swift"; sourceTree = "<absolute>"; };
+		961FA1B32B7D40C6009B76E4 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DrawingView.swift; path = "/Users/work/Desktop/Apps/Guess the Doodle/Guess the Doodle/DrawingView.swift"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +71,12 @@
 				961FA19F2B72EFA1009B76E4 /* Assets.xcassets */,
 				961FA1A12B72EFA1009B76E4 /* Preview Content */,
 				961FA1AF2B743E91009B76E4 /* GameOverView.swift */,
+				961FA1B12B7D3B18009B76E4 /* GameView.swift */,
+				961FA1B32B7D40C6009B76E4 /* DrawingView.swift */,
 			);
-			path = "Guess the Doodle";
-			sourceTree = SOURCE_ROOT;
+			name = "Guess the Doodle";
+			path = "/Users/work/Desktop/Apps/Guess the Doodle/Guess the Doodle";
+			sourceTree = "<absolute>";
 		};
 		961FA1A12B72EFA1009B76E4 /* Preview Content */ = {
 			isa = PBXGroup;
@@ -77,8 +84,8 @@
 				961FA1A22B72EFA1009B76E4 /* Preview Assets.xcassets */,
 			);
 			name = "Preview Content";
-			path = "Guess the Doodle/Preview Content";
-			sourceTree = SOURCE_ROOT;
+			path = "/Users/work/Desktop/Apps/Guess the Doodle/Guess the Doodle/Preview Content";
+			sourceTree = "<absolute>";
 		};
 /* End PBXGroup section */
 
@@ -153,9 +160,11 @@
 				961FA19E2B72EF9F009B76E4 /* ContentView.swift in Sources */,
 				961FA1AC2B72F10B009B76E4 /* MatchManager.swift in Sources */,
 				961FA1AA2B72F0FD009B76E4 /* MenuView.swift in Sources */,
+				961FA1B42B7D40C6009B76E4 /* DrawingView.swift in Sources */,
 				961FA1AE2B72F116009B76E4 /* Misc.swift in Sources */,
 				961FA1B02B743E91009B76E4 /* GameOverView.swift in Sources */,
 				961FA19C2B72EF9F009B76E4 /* Guess_the_DoodleApp.swift in Sources */,
+				961FA1B22B7D3B18009B76E4 /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
