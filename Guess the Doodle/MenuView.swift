@@ -23,7 +23,7 @@ struct MenuView: View {
             Spacer()
             
             Button {
-                // TODO Start Match making
+                matchManager.startMatchmaking()
             } label: {
                 Text("Play")
                     .foregroundColor(.white)
@@ -35,9 +35,7 @@ struct MenuView: View {
             .padding(.horizontal, 100)
             .background(
                 Capsule(style: /*@START_MENU_TOKEN@*/.continuous/*@END_MENU_TOKEN@*/)
-                    .fill(matchManager.authenticationState != 
-                        .authenticated || matchManager.inGame ?
-                        .gray : Color("playBtn"))
+                    .fill(matchManager.authenticationState != .authenticated || matchManager.inGame ? .gray : Color("playBtn"))
             )
             
             Text(matchManager.authenticationState.rawValue)
